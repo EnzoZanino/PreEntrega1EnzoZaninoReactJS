@@ -27,6 +27,11 @@ body {
 
 /* NAVBAR */
 
+.imgTitle {
+  display: flex;
+  align-items: center;
+}
+
 .navBar {
   background-color: darkgray;
   display: flex; align-items: center;
@@ -39,6 +44,7 @@ body {
 }
 
 .imgLogo {
+  margin-right: 1vh;
   margin-left: 6vh;
 }
 

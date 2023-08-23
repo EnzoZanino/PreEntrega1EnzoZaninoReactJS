@@ -16,11 +16,14 @@ const NavBar = () => {
     return (
         <>
             <div className='navBar'>
-                <img 
-                    src={ logoPage } 
-                    alt="Logotipo Pagina" 
-                    className='imgLogo'
-                />
+                <div className='imgTitle'>
+                    <img 
+                        src={ logoPage } 
+                        alt="Logotipo Pagina" 
+                        className='imgLogo'
+                        />
+                    <h2>Shop SL</h2>
+                </div>
                 <Menu>
                     <MenuButton>
                         Categories
