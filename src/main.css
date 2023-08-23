@@ -90,6 +90,15 @@ body {
 
 /* CONTENEDOR PRINCIPAL ITEMS */
 
+.titulo-greeting {
+  text-align: center;
+  padding: 1vh 0;
+  font-size: 5vh;
+  font-weight: bold;
+  color: lightgray;
+  background-color: #000;
+}
+
 .itemListContainer {
   display: flex; justify-content: space-evenly;
   align-items: center;
